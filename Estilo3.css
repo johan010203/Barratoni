@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+.Emcabezado{
+	background: #333;
+	color: white;
+	padding: 1rem 0;
+	left: 0;
+	top: 0;
+	width: 100%;
+	
+}
+#Imagen{
+	float: left;
+	margin-right: 450px;/*establece el margen Derecha*/
+	margin-left: 10px;/*establece el margen izquierdo*/
+	margin-bottom: 4%;/*establece el margen Arriba*/
+}
+#logo{
+	margin-left: 50px;/*establece el margen izquierdo*/
+}
+#contenedor{
+	width: 70%;/*establece el cotenido mas a la derecha*/
+	margin: auto;
+}
+body{
+	color: #333;/* El color a los textos en plomo*/
+	font-size: 1.2rem;/*permite establecer el tamaño del texto*/
+	line-height: 1.4em;/*controla el espacio entre las líneas de un texto*/
+	margin:0;/*establece el margen a los 4 lados*/
+	background-color: antiquewhite;
+}
+
+article{
+	display: flex;
+	width: 100%;
+	margin: 10px;
+}
+article img {
+	margin-top: 10px;/*establece el margen superior*/
+	margin-left: 0px;/*establece el margen izquierdo*/
+	margin-right: 14px;/*establece el margen Derecha*/
+	margin-bottom: 7px;/*establece el margen Inferior*/
+	width: 25%;
+	float: left;
+	border: 10px solid transparent;
+  	padding: 15px;
+	border-image: url(imagenes/border.png) 50 round;
+}
+article p a {
+	color: red;
+	text-decoration: none;/*le quita el subrayado a un enlace*/
+}
+.dos{
+	border: 10px solid transparent;
+  
+	border-image: url("imagenes/Ls.jpg") 50 round;
+	width: 100%;
+	font-family: Georgia, times, serif;/*tipo de letra*/
+	color: #333;/*Color al texto*/
+	font-size: 1.2rem;
+	line-height: 1.2em;/*controla el espacio entre las líneas de un texto*/
+	margin: 0px;/*establece el margen para los cuatro lados*/
+	background-color: antiquewhite;
+	padding: 4%;/*Espacio entre el marco y el texto*/
+}
+.footer{
+	background: #C8C7C7;
+	display: flex;/* La funcion es que tenga una poscion fija*/
+	margin-top: 5rem;/*establece el margen Arriba*/
+	align-items: center;/*la alineación de un elemento dentro del bloque que lo contiene*/	
+	justify-content: space-between;
+	padding: 0.5rem 3rem;/*Espacio entre el marco y el Imagen*/
+}
+footer img{
+	display: flex;
+	margin: 6px;
+	margin-top: 1px;/*establece el margen superior*/
+	margin-left: 0px;/*establece el margen izquierdo*/
+	margin-right: 14px;/*establece el margen Derecha*/
+	margin-bottom: 3px;/*establece el margen Inferior*/
+	width: 8%;
+	float: left;
+}

@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.Emcabezado{
+	background-image: linear-gradient(to bottom right, #009c8c, #4c2882);
+	color: white;
+	padding: 0.5rem 0;/*Padding es entre el contenido y los bordes del contenedor.*/
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+h1{
+	color: #fff;
+	padding-left: 17em;
+	font-size: 40px;/*permite establecer el tamaño del texto*/
+}
+body{
+	background-color: #AAA8F4;
+}
+.Lu{
+	margin: 60px;
+	text-align: justify;
+	color:black;
+}
+#Imagenz{
+	float: left;
+	margin-right: 0px;/*establece el margen Derecha*/
+	margin-left: 8px;/*establece el margen izquierdo*/
+	margin-bottom: 4%;/*establece el margen Arriba*/
+}
+#logo{
+	margin-left: 50px;/*establece el margen izquierdo*/
+}
+body{
+	font-family: times , serif;
+	color: #333;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	margin: 0; 
+	padding-top: 0rem;
+}	
+p{
+	margin: 15px;
+	text-align: justify;
+	color:black;
+	border: 10px solid transparent;
+  	padding: 15px;
+	border-image: url(imagenes/border.png) 50 round;
+}	
+article{
+	margin: 20px;
+}
+#Aceros img{
+	margin: 10px;
+	float: left;	
+	border: 20px;
+	width: 25%;
+}
+#Aceros p{	
+	display: flex;
+	text-align: justify;
+	border: 5px dotted black;
+	margin-bottom: 10em;
+	margin-top: 3em;
+}
+#Ajinomoto img{
+	margin: 10px;
+	width: 25%;	
+	float: right;
+	border: 20px;
+	margin-top: 1em;
+}
+#Ajinomoto p{
+	display: flex;
+	text-align: justify;
+	border: 5px dotted black;
+	margin-top: 1em;
+
+}	
+#Alicorp img{
+    margin: 10px;
+	width: 25%;
+	float: left;
+	border: 20px;
+	margin-top: 12em;
+}	
+#Alicorp p{
+	display: flex;
+	text-align: justify;
+	border: 5px dotted black;
+	margin-top: 9em;
+}
+#Backus img{
+	margin: 15px;
+	width: 25%;
+	float: right;
+	border: 20px;
+	margin-top: 13em;
+}
+#Backus ul{
+	margin: 15px;
+	margin-right: 27.4%;
+	display: block;
+	text-align: justify;
+	color:black;
+	border: 5px black dotted ;	
+}
+#Backus p{
+	text-align: justify;
+	display: flex;
+	color:black;
+	border: 5px black dotted ;	
+	margin-top: 5em;
+}
+#BCP img{
+	margin: 10px;
+	width: 25%;
+	float: left;
+	border: 20px;
+	margin-top: 2em;
+}
+#BCP p{
+	display: flex;
+	text-align: justify;
+	border: dotted black 5px;
+}
+
+
+
+

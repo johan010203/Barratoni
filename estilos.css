@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+/* Cambiando los estilos de las letras */
+.header{
+	background: #d68d2e;
+	color: white;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+/* Realiza la separacion a la izquierda de todo el navegador.... El logo a un lado y el manu al otro */
+.Emcabeza1{
+	display: flex;/* La funcion es que tenga una poscion fija*/
+	justify-content: space-between;
+	align-items: center;/*la alineación de un elemento dentro del bloque que lo contiene*/		
+}
+#Imagen{
+	margin-right: 0px;/*establece el margen Derecha*/
+	margin-left: 10px;/*establece el margen izquierdo*/
+	margin-top: 10px;/*establece el margen Arriba*/
+	
+}
+/* Que no tenga elemento de lista "nome" */
+.navegacion ul {
+	margin: 0;/*establece el margen para los cuatro lados*/
+	padding: 0;/*el espacio entre el contenido del elemento y su borde*/
+	list-style: none;/*le quita a la lista los puntos queban a la izquierda*/
+}
+/* Realiza el poner uno al lado de otro en la parte del menu */
+.navegacion ul li{
+	display: inline-block;
+	margin-left: 10px;/*establece el margen izquierdo*/
+}
+/* Su funcion es ponerlos en bloque */
+.navegacion ul li a {
+	display: block;
+	padding: 0.7rem 2rem;/*La Tamaño que toma el bloque de color rojo*/
+	transition: all 0.4s linear;/*El tiempo que pase el mouse sobre el elemento a continuacion*/
+	border-radius: 20px;/*La forma que toma el bloque de color rojo*/
+	margin-left: 20px;/*establece el margen izquierdo*/
+	color: white;/*le pone color ala letras del menu*/
+	text-decoration: none;/*le quita el subrayado a un enlace*/
+	font-family: "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+/* Su funcion es ponerlos en bloque color al momento de pasarlo con el mouse*/
+.navegacion ul li a:hover {/*produce un cambio al situar el ratón encima de un elemento :hover*/
+	background: #5C0000;
+}
+body{
+	font-family: Georgia, times, serif;/*tipo de letra*/
+	color: #fafaf8;/*Color al texto*/
+	font-size: 1.3rem;
+	line-height: 1.6em;/*controla el espacio entre las líneas de un texto*/
+	margin: 0px;/*establece el margen para los cuatro lados*/
+	background-color: #3f2526;
+}
+h1{
+	font-size: 20em;/*especifica la dimensión de la letra*/
+	line-height: 1.3em;/*altura de separacion*/
+	text-align: center;/*Centrando el titulo*/
+}
+.container video{
+	margin-top: 0px;
+	margin-left: 20em;
+	border-radius: 8px;
+	border: 10px solid transparent;
+  	padding: 15px;
+	border-image: url(imagenes/border.png) 50 round;
+}
+.container img{
+	padding-left: 10em;
+}
+.container h1{
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+	text-align: center;
+	font-size: 2em;
+}
+.footer{
+	background: #d68d2e;
+	display: flex;/* La funcion es que tenga una poscion fija*/
+	margin-top: 4rem;/*establece el margen Arriba*/
+	align-items: center;/*la alineación de un elemento dentro del bloque que lo contiene*/	
+	justify-content: space-between;
+	padding: 0rem 2rem;
+}
+.nombre{
+	padding-top: 1em;
+}
+p{
+	margin-bottom: 1.6em;/*establece el margen Abajo*/
+	text-align: center;/*Centrando el titulo*/
+}
+.container{
+	max-width: 90%;
+	margin: 0 auto;/*establece el margen para los cuatro lados*/
+	margin-top: 5%;
+  	border-style: double;
+	border-color: #efb810;
+	border-width: 5px;
+}
+.logos{
+	padding-top: 1em;
+	letter-spacing: 50px;/*permiten establecer una separación imagen*/
+	line-height: 1em;/*controla el espacio entre las líneas de un texto*/
+}
+
+
+
+

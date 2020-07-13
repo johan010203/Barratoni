@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Imagen{
+	float: left;
+	margin-right: 350px;/*establece el margen Derecha*/
+	margin-left: 10px;/*establece el margen izquierdo*/
+}
+h2{
+	color: red;/*establece color*/
+}
+h3{
+	color: #F80004;/*establece color*/
+}
+p2{
+	color: red;/*establece color*/
+}
+body{
+	
+	color: #333;/* El color a los textos en plomo*/
+	font-size: 1.2rem;/*permite establecer el tamaño del texto*/
+	line-height: 1.4em;/*controla el espacio entre las líneas de un texto*/
+	margin:0;/*establece el margen a los 4 lados*/
+	padding-top: 7rem;
+
+}
+#contenedor{
+	width: 95%;
+	margin: auto;
+}
+header{
+	background: #333;
+	color: white;
+	padding: 1rem 0;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+aside {
+	width: 20%;
+}
+main {
+	display: flex;
+}
+section{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+article{
+	margin: 10px;
+}
+article img {
+	margin-top: 0px;/*establece el margen superior*/
+	margin-left: 0px;/*establece el margen izquierdo*/
+	margin-right: 14px;/*establece el margen Derecha*/
+	margin-bottom: 7px;/*establece el margen Inferior*/
+	width: 25%;
+	float: left;
+}
+article p{
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
